@@ -1,0 +1,173 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+.header {
+	height: 200px;
+	background-color: darkcyan;
+	
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	background-color: darkred;
+
+	float: left;
+}
+.product {
+	width: 200px;
+	height: 150px;
+	border: 1px solid black;
+	float: left;
+}
+.product_1 {
+	background-color: #ccc;
+	
+
+	/*?top: 50px;
+	left: 150px;
+	z-index: 1;*/
+}
+.product_2 {
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	/*position: relative;
+	left: 50px;
+	top: 20px;*/
+}
+
+
+
+
+/*.product {
+	width: 200px;
+	height: 150px;
+	outline: 1px solid black;
+	float: left;
+
+}
+.footer {
+	height: 300px;
+	background-color: grey;
+	clear: both;
+}
+*/
+
+
+
+/*.logo {
+	width: 100px;
+	height: 100px;
+	background-color: grey	;
+	margin-top: 50px;
+	margin-left: 100px;
+	border: 4px solid black;
+}
+.menu li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.menu > li {
+	width: 150px;
+	height: 50px;
+	border: 1px solid black;
+	list-style-type: none;
+}
+.menu li ul {
+	display: none;
+}
+.menu li:hover ul {
+	display: block;
+}
+/*.menu li {
+	display: inline-block;
+	width: 100px;
+}
+/*.menu a {
+	width: 100%;
+	display: block;
+	height: 50px;
+}
+/*.menu li {
+	display: inline;
+}*/
+
+
+
+
+/*div {
+	height: 200px;
+	border: 1px solid black;
+}
+span {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+.list1 li:first-child {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.list1 li:last-child {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.list1 li:nth-child(2n) {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.list1 li:nth-child(3n) a{
+	color: aqua;
+}
+.list1 li {
+	width: 100px;
+	height: 30px;
+	list-style-type: none;
+	border: 1px solid #000;
+	text-align: center;
+}
+.list1 li a:hover {
+	color: red;
+}
+.list1 li a:active {
+	color: green;
+}
+.list li:nth-child(3n):after {
+content:"NEW";
+color: blueviolet;
+}
+.list1 li:hover:after {
+content: ">>";
+}
+.text:first-letter{
+	font-size: 30px;
+	color: brown;
+}
+.table {
+	border: 1px solid #000;
+	width: 400px;
+	height: 300px;
+	padding-left: 10px;
+	border-collapse: collapse;
+}
+.table td {
+	border: 1px solid red;
+	padding-left: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+.five {
+	background-color: green;
+}*/

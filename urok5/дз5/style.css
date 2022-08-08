@@ -1,0 +1,229 @@
+body{
+	background-color: #F8F8F8;
+}
+.menu li a{
+	color: black;
+    font-family: times new roman, serif verdana;
+font-weight: bolder;
+font-size: medium;
+text-decoration: none;
+}
+.menu li a:hover {
+	color: blue;
+}
+.menu li a:active {
+	color: red;
+}
+ul {
+	list-style-type: none;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	background-color: #eaeaea;
+}
+.short {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	list-style: 16px;
+}
+.full {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.character {
+font-size: 15px;
+text-align: left;
+font-family: times new roman, serif verdana;
+color: blue;
+font-weight: bold;
+font-style: italic;
+}
+.character li:before {
+	content: ''; /* для отображения контента в данном солучаи - background: url(./imeg/jVfPr0P4gm0.jpg); */
+display: inline-block; /* тоже необходим для отображения нашего изображения */
+width: 15px;
+height: 10px;
+background: url(img/samsunglogo.jpg); /* путь к нашему изображению */
+background-size: contain; /* для отображения изображения в указанных нами размерами width: 150px; height: 150px; */
+background-repeat: no-repeat;
+}
+input[type="text"],input[type="textarea"] {
+	color: darkblue;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+}
+input[type="textarea"] {
+	text-align: left;
+	width: 400px;
+	height: 100px;
+}
+img[alt="galaxys10+"],img[alt="samsungwatch"],img[alt="samsung"] {
+	outline: 4px solid darkblue;
+}
+img[alt="galaxys10+"]:hover,img[alt="samsungwatch"]:hover,img[alt="samsung"]:hover {
+	outline: none;
+}
+input[type="text"] {
+	text-transform: capitalize;
+}
+.mail:focus {
+	color: red;
+	background-color: lightgrey;
+}
+.table_character {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 600px;
+	height: 200px;
+}
+.table_character td {
+	border: 2px solid black;
+}
+.short:first-letter, .full:first-letter {
+	font-family: Colibri, serif: verdana;
+	font-size: 2em;
+}
+.tablica {border: 2px solid black;
+	border-collapse: collapse;
+	width: 600px;
+	height: 200px;
+}
+.tablica td{
+	border: 2px solid black;
+}
+.tablica tr:first-child {
+	height: 400px;
+}
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	display: block;
+
+}  
+.header {
+	height: 200px;
+	margin-bottom: 50px;
+	display: block;
+	position: relative;
+}
+.header:after {
+  content: "";
+  background: url(img/background.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.logo {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+.menu li {
+	display: inline-block;
+}
+.menu {
+	float: right;
+}
+.footer {
+	height: 30px;
+	background-color: aqua;
+	text-align: right;
+	clear: both;
+	display: block;
+	top: 10px;
+
+}
+.footer b {
+	padding-right: 15px;
+	padding-top: 15px;
+}
+.map {
+	width: 100%;
+	height: 374px;
+}
+.kupit {
+
+}
+.header hr {
+	overflow: hidden;
+}
+.content {
+}
+.pic {
+	padding-right: 10px;
+	margin-bottom: 15px;
+	float: left;
+}
+.shortdiv {
+	display: inline;
+	
+}
+.fulldiv {
+	padding-top: 15px;
+	clear: both;
+}
+.characterdiv {
+
+}
+.kupit {
+	width: 110px;
+	height: 35px;
+	font-size: 15px;
+	background-color: darkblue;
+	color: whitesmoke;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 3px solid black;
+}
+.kupit:hover {
+	width: 110px;
+	height: 35px;
+	font-size: 15px;
+	background-color: darkred;
+	color: whitesmoke;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 3px solid black;
+}
+.kupit:active {
+	width: 110px;
+	height: 35px;
+	font-size: 15px;
+	background-color: whitesmoke;
+	color: darkgrey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 3px solid black;
+}
+.watch {
+	margin-top: 15px;
+}
+.catalog {
+	display: inline-block;
+	padding-right: 30px;
+}
+.anketa, .contacts {
+	width: 400px;
+}
+

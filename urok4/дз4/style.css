@@ -1,0 +1,104 @@
+body{
+	background-color: #F8F8F8;
+}
+.menu li a{
+	color: black;
+    font-family: times new roman, serif verdana;
+font-weight: bolder;
+font-size: medium;
+text-decoration: none;
+}
+.menu li a:hover {
+	color: blue;
+}
+.menu li a:active {
+	color: red;
+}
+ul {
+	list-style-type: none;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	background-color: #eaeaea;
+}
+.short {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	list-style: 16px;
+}
+.full {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.character {
+font-size: 15px;
+text-align: left;
+font-family: times new roman, serif verdana;
+color: blue;
+font-weight: bold;
+font-style: italic;
+}
+.character li:before {
+	content: ''; /* для отображения контента в данном солучаи - background: url(./imeg/jVfPr0P4gm0.jpg); */
+display: inline-block; /* тоже необходим для отображения нашего изображения */
+width: 15px;
+height: 10px;
+background: url(img/samsunglogo.jpg); /* путь к нашему изображению */
+background-size: contain; /* для отображения изображения в указанных нами размерами width: 150px; height: 150px; */
+background-repeat: no-repeat;
+}
+input[type="text"],input[type="textarea"] {
+	color: darkblue;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+}
+input[type="textarea"] {
+	text-align: left;
+	width: 400px;
+	height: 100px;
+}
+img[alt="galaxys10+"],img[alt="samsungwatch"],img[alt="samsung"] {
+	outline: 4px solid darkblue;
+}
+img[alt="galaxys10+"]:hover,img[alt="samsungwatch"]:hover,img[alt="samsung"]:hover {
+	outline: none;
+}
+input[type="text"] {
+	text-transform: capitalize;
+}
+.mail:focus {
+	color: red;
+	background-color: lightgrey;
+}
+.table_character {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 600px;
+	height: 200px;
+}
+.table_character td {
+	border: 2px solid black;
+}
+.short:first-letter, .full:first-letter {
+	font-family: Colibri, serif: verdana;
+	font-size: 2em;
+}
+.tablica {border: 2px solid black;
+	border-collapse: collapse;
+	width: 600px;
+	height: 200px;
+}
+.tablica td{
+	border: 2px solid black;
+}
+.tablica tr:first-child {
+	height: 400px;
+}
